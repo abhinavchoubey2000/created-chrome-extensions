@@ -1,0 +1,18 @@
+{
+	"name": "Whatsapp Privacy Protector",
+	"description": "This extension provide you the Privacy in the Whatsapp Web. When you enable this extension, it blurs all the contact names of your chats in Whatsapp Web so that no one can see the names or your contacts when taking the screenshot.",
+	"version": "1.0",
+	"manifest_version": 3,
+	"action": {
+		"default_popup": "popup.html",
+		"default_icon": "icon.png",
+		"default_title": "Whatsapp Protector"
+	},
+	"permissions": ["activeTab", "scripting"],
+	"content_scripts": [
+		{
+			"matches": ["https://web.whatsapp.com/"],
+			"js": ["content.js"]
+		}
+	]
+}
