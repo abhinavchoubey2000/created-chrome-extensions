@@ -19,7 +19,7 @@ This repository contains all the Google Chrome Extensions which I have created.
 I'm a full stack developer...
 
 
-# Hi, I'm Katherine! 👋
+# Hi, This is Abhinav! 👋
 
 
 ## 🛠 Skills
